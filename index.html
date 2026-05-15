@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AL-ISRAH Paint – Color Your Life</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-inner">
+      <a href="#home" class="logo-link">
+        <img src="logo.jpeg" alt="Al-Israh Paint" class="nav-logo">
+        <!-- <img src="https://placehold.co/400x120/1A2D6B/FFFFFF?text=AL-ISRAH+PAINT" alt="Al-Israh Paint" class="nav-logo" /> -->
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-a active">Home</a></li>
+        <li><a href="#products" class="nav-a">Products</a></li>
+        <li><a href="#colors" class="nav-a">Colours</a></li>
+        <li><a href="#why-us" class="nav-a">Why Us</a></li>
+        <li><a href="#about" class="nav-a">About</a></li>
+        <li><a href="#faq" class="nav-a">FAQ</a></li>
+        <li><a href="#contact" class="nav-a">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <!-- HERO SLIDER BACKGROUND -->
+    <div class="hero-slider" id="hero-slider">
+
+      <div class="hero-slide active"
+        style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1920&q=80')">
+      </div>
+
+
+      <div class="hero-slide" style="background-image: url('wood-varnish.jpeg')"></div>
+      <div class="hero-slide" style="background-image: url('primer.jpg')"></div>
+      <div class="hero-slide" style="background-image: url('wall-filling.jpg')"></div>
+
+      <div class="hero-slide"
+        style="background-image: url('https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1920&q=80')">
+      </div>
+
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Pakistan's Premium Paint Brand</p>
+      <h1 class="hero-title">
+        Color<br /><em>Your Life</em>
+      </h1>
+      <p class="hero-sub">Premium paints engineered for Pakistan's climate — vibrant, long-lasting, and built to protect
+        every surface.</p>
+      <div class="hero-cta-row">
+        <a href="#products" class="btn btn-primary">Explore Products</a>
+        <a href="#colors" class="btn btn-outline">View Colours</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== STATS BAR ===== -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <span class="stat-num" data-target="200">0</span><span class="stat-unit">+</span>
+      <span class="stat-label">Colour Shades</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="10">0</span><span class="stat-unit">+</span>
+      <span class="stat-label">Product Lines</span>
+    </div>
+    <!-- <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="15">0</span><span class="stat-unit">+</span>
+      <span class="stat-label">Years of Trust</span>
+    </div> -->
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="1000">0</span><span class="stat-unit">+</span>
+      <span class="stat-label">Happy Customers</span>
+    </div>
+  </div>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section class="products-section" id="products">
+    <div class="section-header">
+      <p class="section-eyebrow">Our Range</p>
+      <h2 class="section-title">Products for Every Surface</h2>
+      <p class="section-desc">From interior walls to exterior facades, wood, metal, and more — Al-Israh has the right
+        paint for every job.</p>
+    </div>
+    <div class="products-grid">
+
+      <div class="product-card" data-product="weather-shield">
+        <div class="product-img-wrap">
+          <img src="Weather-shield.jpg" alt="Weather Shield Gold Series" />
+          <div class="product-badge">Gold Series</div>
+        </div>
+        <div class="product-info">
+          <h3>Weather Shield</h3>
+          <p class="product-sub">For Exterior Walls</p>
+          <p class="product-desc">Superior weather resistance with extra coverage, smooth finish, and anti-fungal
+            protection. Ideal for Pakistan's harsh summers and monsoon seasons.</p>
+          <ul class="product-features">
+            <li>Extra Coverage</li>
+            <li>Smooth Finish</li>
+            <li>Better Flow</li>
+            <li>Anti Fungal</li>
+            <li>Long Lasting Colors</li>
+          </ul>
+          <a href="WeatherShield(GOLD-SERIES).pdf" class="btn btn-sm" target="_blank" rel="noopener noreferrer">View PDF</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-product="special-emulsion">
+        <div class="product-img-wrap">
+          <img src="super-emulsion.jpg" alt="Super Emulsion" />
+          <!-- <div class="product-badge">Gold Series</div> -->
+        </div>
+        <div class="product-info">
+          <h3>Super Emulsion</h3>
+          <p class="product-sub">For Interior Walls</p>
+          <p class="product-desc">Luxuriously smooth interior emulsion delivering rich, true-to-life colours with a
+            washable finish. Available in Gold Series and Special ranges.</p>
+          <ul class="product-features">
+            <li>Washable Finish</li>
+            <li>Rich Pigmentation</li>
+            <li>Low VOC</li>
+            <li>Fast Drying</li>
+          </ul>
+          <a href="SPECIAL_EMULSION.pdf" class="btn btn-sm" target="_blank" rel="noopener noreferrer">View PDF</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-product="synthetic-enamel">
+        <div class="product-img-wrap">
+          <img src="synthetic-enamel.jpg" alt="Synthetic Enamel" />
+          <div class="product-badge">Gold Series</div>
+        </div>
+        <div class="product-info">
+          <h3>Synthetic Enamel</h3>
+          <p class="product-sub">For Wood, Metal &amp; Walls</p>
+          <p class="product-desc">High-gloss synthetic enamel that provides a hard, durable coating on wood, metal, and
+            walls. Available in Gold Series with Metallic Finish option.</p>
+          <ul class="product-features">
+            <li>High Gloss Finish</li>
+            <li>Hard Wearing</li>
+            <li>Metallic Variants</li>
+            <li>Rust Inhibiting</li>
+          </ul>
+          <a href="SYNTHETIC ENAMEL GOLD SERIES.pdf" class="btn btn-sm" target="_blank" rel="noopener noreferrer">View PDF</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-product="woodsafer">
+        <div class="product-img-wrap">
+          <img src="woodsafer-varnish.jpg" alt="Woodsafer Varnish" />
+        </div>
+        <div class="product-info">
+          <h3>Woodsafer Varnish</h3>
+          <p class="product-sub">Interior / Exterior Use</p>
+          <p class="product-desc">Elfy Varnish by Al-Israh enhances and protects wood surfaces with long-lasting,
+            heat-proof protection. Easy to apply for professional results.</p>
+          <ul class="product-features">
+            <li>Enhances Wood Grain</li>
+            <li>Heat Proof</li>
+            <li>Easy Application</li>
+            <li>Interior &amp; Exterior</li>
+          </ul>
+          <a href="woodsafer-varnish.pdf" class="btn btn-sm" target="_blank" rel="noopener noreferrer">View PDF</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-product="wall-filling">
+        <div class="product-img-wrap">
+          <img src="wall_filling.jpg" alt="Wall Filling" />
+        </div>
+        <div class="product-info">
+          <h3>Wall Filling</h3>
+          <p class="product-sub">For Interior Walls &amp; Ceilings</p>
+          <p class="product-desc">Professional-grade wall filling compound that creates a perfectly smooth base for
+            painting. Fills cracks and imperfections for a flawless final finish.</p>
+          <ul class="product-features">
+            <li>Crack Filling</li>
+            <li>Smooth Base</li>
+            <li>Paintable Surface</li>
+            <li>Interior Walls &amp; Ceilings</li>
+          </ul>
+          <a href="wall-filling.pdf" class="btn btn-sm" target="_blank" rel="noopener noreferrer">View PDF</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-product="special-primer">
+        <div class="product-img-wrap">
+          <img src="special-primer.jpg" alt="Special Primer" />
+        </div>
+        <div class="product-info">
+          <h3>Special Primer</h3>
+          <p class="product-sub">Base Coat</p>
+          <p class="product-desc">The perfect foundation for any paint job. Al-Israh Special Primer ensures superior
+            adhesion, better coverage, and longer-lasting top coats on all surfaces.</p>
+          <ul class="product-features">
+            <li>Superior Adhesion</li>
+            <li>Seals Porous Surfaces</li>
+            <li>Improves Coverage</li>
+            <li>All Surface Compatible</li>
+          </ul>
+          <a href="special-primer.pdf" class="btn btn-sm" target="_blank" rel="noopener noreferrer">View PDF</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-product="white-glue">
+        <div class="product-img-wrap">
+          <img src="white-glue.jpg" alt="Pure White Glue" />
+        </div>
+        <div class="product-info">
+          <h3>Pure White Glue</h3>
+          <p class="product-sub">German Formula</p>
+          <p class="product-desc">German White Glue with superior bonding strength. Protected from termites, water
+            resistant, and heat resistant — best performance every time.</p>
+          <ul class="product-features">
+            <li>Termite Protected</li>
+            <li>Water Resistant</li>
+            <li>Heat Resistant</li>
+            <li>German Formula</li>
+          </ul>
+          <a href="white-glue.pdf" class="btn btn-sm" target="_blank" rel="noopener noreferrer">View PDF</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== COLOUR PALETTE ===== -->
+  <section class="colors-section" id="colors">
+    <div class="section-header light">
+      <p class="section-eyebrow">Colour Collections</p>
+      <h2 class="section-title">Find Your Perfect Shade</h2>
+      <p class="section-desc">Browse hundreds of colours across our product lines. Click any swatch to see the shade
+        name and code.</p>
+    </div>
+    <div class="color-tabs">
+      <button class="color-tab active" data-tab="emulsion">Emulsion</button>
+      <button class="color-tab" data-tab="enamel">Synthetic Enamel</button>
+      <button class="color-tab" data-tab="weather">Weather Shield</button>
+    </div>
+    <div class="color-grid" id="color-grid"></div>
+    <p class="color-note">* Colours shown are approximate. For accurate representation, please request a physical colour
+      card from your nearest dealer.</p>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="why-section" id="why-us">
+    <div class="why-inner">
+      <div class="why-text">
+        <p class="section-eyebrow">The Al-Israh Advantage</p>
+        <h2 class="section-title">Why Thousands Trust Us</h2>
+        <p class="why-para">From Lahore to across Pakistan, Al-Israh Paint has earned its reputation through consistent
+          quality, vibrant colours, and products that truly protect your home.</p>
+        <div class="why-features">
+          <div class="why-feat">
+            <div class="why-feat-icon">🌡️</div>
+            <div>
+              <h4>Climate Engineered</h4>
+              <p>Formulated for Pakistan's extreme heat, monsoons, and temperature swings.</p>
+            </div>
+          </div>
+          <div class="why-feat">
+            <div class="why-feat-icon">🎨</div>
+            <div>
+              <h4>200+ Rich Colours</h4>
+              <p>Our curated Gold Series palettes give you professional colour accuracy every time.</p>
+            </div>
+          </div>
+          <div class="why-feat">
+            <div class="why-feat-icon">🛡️</div>
+            <div>
+              <h4>Long-Lasting Protection</h4>
+              <p>Anti-fungal, weather-resistant formulas that protect year after year.</p>
+            </div>
+          </div>
+          <div class="why-feat">
+            <div class="why-feat-icon">💰</div>
+            <div>
+              <h4>Value for Money</h4>
+              <p>Premium quality at a fair price — because your home deserves the best without breaking the bank.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="why-image-stack">
+        <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=400&q=80"
+          class="why-img why-img-1" alt="Painting brush mixing colors" />
+        <img src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?auto=format&fit=crop&w=400&q=80"
+          class="why-img why-img-2" alt="Colorful paint containers" />
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <div class="about-img-col">
+        <img src="logo.jpeg" alt="">
+        <!-- <img src="https://placehold.co/400x120/1A2D6B/FFFFFF?text=AL-ISRAH+PAINT" alt="Al-Israh Paint Logo" class="about-logo" /> -->
+        <div class="about-quote">"Color Your Life with confidence, quality, and style."</div>
+      </div>
+      <div class="about-text-col">
+        <p class="section-eyebrow">Our Story</p>
+        <h2 class="section-title">Born in Lahore, Built for Pakistan</h2>
+        <p>Al-Israh Paint is a proudly Pakistani brand based in Lahore — a city famous for its craftsmanship and
+          industrial excellence. We set out with a simple mission: to give Pakistani homes the quality of paint they
+          deserve at a price that's fair.</p>
+        <p>Over the years, we have expanded our product range to cover every painting need — from interior emulsions and
+          exterior weather shields to wood varnishes, primers, and specialty coatings. Our Gold Series brings
+          international-grade colour cards and formulations to the local market.</p>
+        <p>Today, Al-Israh is trusted by homeowners, builders, and contractors across Punjab and beyond. Our tagline
+          says it all — <strong>Color Your Life.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq-section" id="faq">
+    <div class="section-header">
+      <p class="section-eyebrow">Got Questions?</p>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-inner">
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>1. What products does Al-Israh Paint Industry offer?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Al-Israh Paint offers high-quality coatings for residential, commercial, and
+            industrial needs, including interior/exterior paints, weather-resistant & eco-friendly options, and
+            specialized finishes as well as German White Glue.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>2. Where is Al-Israh Paint Industry located?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Our main operations and industry are based in <strong>Lahore, Pakistan</strong>.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>3. What makes the "Gold Series" different?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">The Gold Series is our premium line, formulated for superior coverage, enhanced
+            durability, and a more sophisticated finish compared to standard paints.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>4. Is the Weather Shield suitable for extreme weather?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Yes, our Weather Shield is specifically engineered to act as a barrier against
+            extreme heat and heavy rainfall, featuring anti-fungal properties and UV resistance.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>5. Can I get product samples?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Yes, we provide samples according to our policy: <strong>Enamel</strong> in
+            "Dubbi" size and <strong>other paints</strong> in "Quarter" size. Samples are not provided in large Drums or
+            Gallons.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>6. Do you provide color schemes?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Yes, we provide professional color schemes to help you choose the best
+            combinations for your space.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>7. Is dealership or distribution available?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Yes, dealership and distribution opportunities are available.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>8. How can I contact Al-Israh Paint for orders or inquiries?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">You can reach us at <strong>+92 303 9163000</strong> or visit us in
+            <strong>Lahore & Sialkot, Pakistan</strong>.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          <span>9. Does Al-Israh Paint offer architectural color consultancy?</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Yes, we provide consultancy.</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section" id="contact">
+    <div class="section-header">
+      <p class="section-eyebrow">Get In Touch</p>
+      <h2 class="section-title">Find Us or Enquire</h2>
+    </div>
+    <div class="contact-inner">
+      <div class="contact-info-col">
+        <div class="contact-info-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <h4>Address</h4>
+            <p>Al-Israh Paint Industry, Lahore, Pakistan</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+92 303 9163000</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <p>info@alisrahpaint.com</p>
+          </div>
+        </div>
+        <div class="contact-social">
+          <a href="https://www.facebook.com/profile.php?id=61582636539250&mibextid=ZbWKwL" class="social-link"
+            target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook-f"></i>
+            Facebook
+          </a>
+          <a href="https://www.instagram.com/alisrahpaint?igsh=b3A0am05Mm1ndmEx" class="social-link" target="_blank"
+            rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram
+          </a>
+          <a href="https://www.snapchat.com/add/alisrahpaint?share_id=dDsuuBcm0Mk&locale=en-PK" class="social-link"
+            target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-snapchat"></i>
+            Snapchat
+          </a>
+          <a href="https://www.tiktok.com/@alisrahpaint?_r=1&_t=ZS-96Nx4FFSMrt" class="social-link" target="_blank"
+            rel="noopener noreferrer">
+            <i class="fa-brands fa-tiktok"></i>
+            TikTok
+          </a>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder=" Name" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="+92 300 0000000" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select id="subject">
+            <option value="">Select a topic…</option>
+            <option>Product Enquiry</option>
+            <option>Dealer / Distributor</option>
+            <option>Colour Advice</option>
+            <option>Complaint / Feedback</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Tell us how we can help…"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        <p class="form-success" id="form-success">✅ Thank you! We'll get back to you shortly.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="https://placehold.co/400x120/1A2D6B/FFFFFF?text=AL-ISRAH+PAINT" alt="Al-Israh Paint"
+          class="footer-logo" />
+        <p>Pakistan's premium paint brand. Serving all over Pakistan with quality, colour, and care.</p>
+      </div>
+      <div class="footer-links">
+        <h5>Products</h5>
+        <ul>
+          <li><a href="#products">Weather Shield</a></li>
+          <li><a href="#products">Emulsion</a></li>
+          <li><a href="#products">Synthetic Enamel</a></li>
+          <li><a href="#products">Woodsafer Varnish</a></li>
+          <li><a href="#products">Wall Filling</a></li>
+          <li><a href="#products">Special Primer</a></li>
+          <li><a href="#products">White Glue</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#why-us">Why Al-Israh</a></li>
+          <li><a href="#colors">Colour Palette</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Connect</h5>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=61582636539250&mibextid=ZbWKwL">
+              <i class="fa-brands fa-facebook-f"></i>
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/alisrahpaint?igsh=b3A0am05Mm1ndmEx">
+              <i class="fa-brands fa-instagram"></i>
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="https://www.snapchat.com/add/alisrahpaint?share_id=dDsuuBcm0Mk&locale=en-PK">
+              <i class="fa-brands fa-snapchat"></i>
+              Snapchat
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@alisrahpaint?_r=1&_t=ZS-96Nx4FFSMrt">
+              <i class="fa-brands fa-tiktok"></i>
+              TikTok
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © 2026 | All Rights Reserved | Design & Developed by Attiqa Anwar</p>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP WIDGET ===== -->
+  <a href="https://wa.me/923039163000" class="whatsapp-widget" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>How can I help you?</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
